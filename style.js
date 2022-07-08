@@ -98,14 +98,14 @@ mainTextCss.addEventListener("keyup", () => {
 
 /*************************************************Mouse over*****************************************************/
 mainTextHtml.addEventListener("mouseover", (e) => {
-    e.target.style.border = "2px solid blue";
+    e.target.style.border = "5px solid blue";
     mainTextHtml.addEventListener("mouseout", (e) => {
         e.target.style.border = "";
     })
 })
 
 mainTextCss.addEventListener("mouseover", (e) => {
-        e.target.style.border = "2px solid blue";
+        e.target.style.border = "5px solid blue";
         mainTextCss.addEventListener("mouseout", (e) => {
             e.target.style.border = "";
         })
