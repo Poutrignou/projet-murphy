@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Babylonica&family=Beau+Rivage&family=Grape+Nuts&family=Open+Sans:wght@400;700&display=swap');
+    </style>
+    <style></style>
+    <title>Document</title>
+    <script src="style.js" defer></script>
+</head>
+
+
+<body>
+
+    <div class="block-page">
+        <header>
+            <h1>
+                Editor HTML & CSS
+            </h1>
+        </header>
+        <div class="input">
+            <div class="input_valeur_max">
+                <input id="max" value="200" type="number" />
+                <button id="btn"> valider </button>
+            </div>
+            <div class="custom-select" style="width:200px;">
+                <select class="select">
+            <option value="0">Select tag:</option>
+            <option id="option_div" value="div">div</option>
+            <option id="option_h1" value="h1">h1</option>
+            <option id="option_h2" value="h2">h2</option>
+            <option id="option_h3" value="h3">h3</option>
+            <option id="option_p" value="p">p</option>
+            <option id="option_i" value="i">i</option>
+            <option id="option_a" value="a">a</option>
+            </select>
+                <button id="button_selection_tag"> Tag</button>
+            </div>
+
+        </div>
+        <div class="textarea-box">
+            <div>
+                <textarea name="text" id="main_text_html" cols="150" rows="5" maxlength="200" spellcheck="false" placeholder="Entrez votre code HTML ici"></textarea>
+            </div>
+            <!-- //************************************************************************CSS***********************************************************-->
+            <div class="custom-select-color" style="width:200px;">
+                <select class="select-color">
+        <option value="0">Select color:</option>
+        <option id="option_blue" value="blue">blue</option>
+        <option id="option_red" value="red">red</option>
+        <option id="option_orange" value="orange">orange</option>
+        <option id="option_purple" value="purple">purple</option>
+        <option id="option_green" value="green">green</option>
+        <option id="option_grey" value="grey">grey</option>
+        </select>
+                <button id="button_selection_color"> color</button>
+            </div>
+            <div>
+                <textarea name="text" id="main_text_css" cols="150" rows="5" spellcheck="false" placeholder="Entrez votre code CSS ici"></textarea>
+            </div>
+        </div>
+        <div id="barre_progression"></div>
+        <div class="container">
+            <h2>Live_Coding</h2>
+            <div id="root"> </div>
+            <span id="result"> </span>
+        </div>
+    </div>
+</body>
+
+</html>

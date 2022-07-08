@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    line-height: inherit;
+    color: rgb(4, 0, 255);
+    font: inherit;
+    letter-spacing: 0.05em;
+    font-family: Roboto, Helvetica, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.block-page {
+    width: 80%;
+    height: auto;
+    background-image: url(./jellyfish.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-decoration-style: double;
+    font-weight: bold;
+}
+
+.textarea-box {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+textarea {
+    width: 100%;
+    background-color: aliceblue;
+}
+
+#barre_progression {
+    height: 5px;
+    width: 50px;
+    background-color: green;
+}
+
+.main_text_html_class {
+    background-color: black;
+    color: black;
+}
+
+.input {
+    background: #7fffd400;
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+}
